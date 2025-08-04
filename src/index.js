@@ -10,8 +10,8 @@
 
 import { RtcTokenBuilder, RtcRole } from './utils/RtcTokenBuilder.js'
 
-const APP_ID = '4d33f7f880db49a9a4f6a2aba40719a6';
-const APP_CERTIFICATE = 'd2902907b24c4de4ad43e8174897e481';
+const APP_ID = '<YOUR_APP_ID>';
+const APP_CERTIFICATE = '<YOUR_APP_CERTIFICATE>';
 
 export default {
   async fetch(request) {
