@@ -1,6 +1,7 @@
 # Agora Token Server (Cloudflare Worker)
 
 Generate RTC tokens on the edge with Cloudflare Workers using Web Crypto API.
+- Please set your own APP_ID and APP_CERTIFICATE in index.js file.
 
 ## Features
 
