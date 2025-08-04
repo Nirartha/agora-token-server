@@ -172,3 +172,29 @@ node_modules/
 .wrangler/
 dist/
 .env
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Cloudflare Workers
+.wrangler/
+dist/
+
+# VSCode settings
+.vscode/
+
+# macOS 系統檔
+.DS_Store
+
+# 測試或暫存
+coverage/
+test/
+
+# IDE/editor 設定
+*.log
+*.tmp
+
+# Others
+.env
+
