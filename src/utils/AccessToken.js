@@ -98,10 +98,10 @@ function AccessTokenContent({ signature, crc_channel, crc_uid, m }) {
   return {
     pack() {
       const out = ByteBuf();
-      out.putBytes(signature); // 🧠 修正：不要用 putString，會導致格式錯誤
+      out.putBytes(signature);
       out.putUint32(crc_channel);
       out.putUint32(crc_uid);
-      out.putBytes(m);         // 🧠 同樣使用 bytes
+      out.putBytes(m);
       return out.pack();
     }
   };
